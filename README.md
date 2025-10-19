@@ -1,6 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
 <h3>Name: Bharath Raj P</h3>
-<h3>Register Number: 212223230031    </h3>
+<h3>Register Number:212223230031</h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -83,13 +83,14 @@ F H <BR>
 0 3 <BR>
 2 3 <BR>
 2 4 <BR>
-</hr>
+<hr>
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
 
-</hr>
-<h3>PROGRAM: </h3>
+<hr>
+
+## Program:
 ```
 #import defaultdict
 from collections import defaultdict
@@ -108,15 +109,15 @@ for i in range(e):
     graph[u].append(v)
     graph[v].append(u)
 #print(graph)
-start='A'
+start='0'
 visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
-<h3>OUTPUT:</h3>
+## Output:
+<img width="745" height="307" alt="image" src="https://github.com/user-attachments/assets/5747b4f5-2c90-4089-82b1-d3bc40375159" />
 
-![alt text](output/image.png)
 
 <h3>Result:</h3>
 <hr>
